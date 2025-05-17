@@ -21,7 +21,7 @@ const StatCard = ({ title, value, color }) => {
   };
   
   return (
-    <div className="stat-card" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', margin: '10px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
+    <div className="stat-card" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', margin: '10px' }}>
       <div className="stat-info" style={{ 
         backgroundColor: color, 
         padding: '15px',

@@ -1,6 +1,6 @@
 import React from 'react';
 import Select from 'react-select';
-import '/home/archana/Covid-19-Dashboard/src/comonents/CountryDropdown.css';
+import './CountryDropdown.css';
 
 const CountryDropdown = ({ countries, selectedCountry, onChange }) => {
   const customStyles = {
@@ -10,9 +10,7 @@ const CountryDropdown = ({ countries, selectedCountry, onChange }) => {
       borderRadius: '50px',
       border: '1px solid #ddd',
       boxShadow: 'none',
-      '&:hover': {
-        border: '1px solid #aaa',
-      },
+      
     }),
     option: (provided, state) => ({
       ...provided,

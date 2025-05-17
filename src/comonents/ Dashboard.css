@@ -83,8 +83,16 @@
 
 
   
-  /* Responsive design */
+ 
   @media (max-width: 768px) {
+    .main-dashboard {
+      width: auto;
+
+    }
+    .dashboard {
+      width: auto;
+      padding: 0;
+    }
     .dashboard-filters {
       flex-direction: column;
       gap: 10px;
@@ -96,5 +104,8 @@
     
     .charts-container {
       flex-direction: column;
+    }
+    .dashboard h1{
+      font-size: 18px;
     }
   }
