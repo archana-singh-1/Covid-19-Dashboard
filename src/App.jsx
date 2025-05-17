@@ -1,10 +1,13 @@
-import CountryDropDown from "./components/CountryDropdown";
-import "./App.css"
-function App(){
-  return(
-    <div className="container">
-      <CountryDropDown/>
+import React from 'react';
+import Dashboard from './comonents/ Dashboard';
+import './App.css';
+
+function App() {
+  return (
+    <div className="app">
+      <Dashboard />
     </div>
-  )
+  );
 }
+
 export default App;
