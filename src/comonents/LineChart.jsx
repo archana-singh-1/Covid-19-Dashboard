@@ -1,6 +1,6 @@
 import React from 'react';
 import { LineChart as RechartsLineChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Line } from 'recharts';
-import '/home/archana/Covid-19-Dashboard/src/comonents/LineChart.css';
+import './LineChart.css';
 
 const LineChart = ({ data }) => {
   if (!data || !data.dates || data.dates.length === 0) {

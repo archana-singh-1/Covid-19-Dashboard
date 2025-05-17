@@ -6,7 +6,7 @@ import DateRangePicker from './DateRangePicker';
 import StatCard from './StatCard';
 import LineChart from './LineChart';
 import PieChart from './PieChart';
-import '/home/archana/Covid-19-Dashboard/src/comonents/ Dashboard.css';
+import './ Dashboard.css';
 
 const Dashboard = () => {
 

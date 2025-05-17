@@ -1,7 +1,7 @@
 import React from 'react';
 import { PieChart as RechartsPieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 import { formatNumber } from '../utils/helpers';
-import '/home/archana/Covid-19-Dashboard/src/comonents/PieChart.css';
+import './PieChart.css';
 
 const PieChart = ({ data }) => {
   if (!data) {
